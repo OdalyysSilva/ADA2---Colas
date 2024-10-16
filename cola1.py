@@ -20,7 +20,7 @@ def definir(cola, nomcola, n):
     for _ in range(n):
         cola.encolar(int(input(f"Inserta un número para la {nomcola}: ")))
 
-n = int(input("\nIserta el numero de elementos para las cola: "))
+n = int(input("\nInserta el numero de elementos para las colas: "))
 # Crea dos instancias de la clase Cola (cola1 y cola2)
 cola1, cola2 = Cola(), Cola()
 definir(cola1, "Cola 1", n)
